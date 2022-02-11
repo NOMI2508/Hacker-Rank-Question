@@ -8,12 +8,12 @@ def diagonalDifference(a):
     for i in range(len(a)):
         for j in range(len(a)):
             if(i==j):
-                Lsum+=a[i][j]
-            elif(i+j)==(len(a)-1):
-                Rsum+=a[i][j]
+              Lsum+=a[i][j]
+            if(i+j)==(len(a)-1):
+              Rsum+=a[i][j]
     return abs(Lsum-Rsum)
     
-a=[[1,2,3],[4,5,6],[7,8,9]]
+a=[[1,2,3],[4,5,6],[9,8,9]]
 
 
 print(diagonalDifference(a))
