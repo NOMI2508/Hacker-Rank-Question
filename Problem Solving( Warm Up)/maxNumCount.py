@@ -4,7 +4,7 @@ def birthdayCakeCandles(candles):
      
      
   
-     print(f'The value of maximum number {num} and its occurance is {candles.count(num)} times')
+     print(f'The value of maximum number {num} and its occurance is {candles.count(num)} times number appear ')
      
 candles=[3,2,1,3,5,5,5,4]
 
