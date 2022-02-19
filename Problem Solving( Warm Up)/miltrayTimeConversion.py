@@ -8,4 +8,4 @@ def convert24(str1):
     else:
         return str(int(str1[:2]) +12) + str1[2:8]
 
-print(convert24("11:59:22 PM"))
+print(convert24("11:59:59 PM"))
